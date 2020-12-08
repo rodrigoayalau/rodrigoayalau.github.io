@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="assets/skeleton/css/skeleton.css">
     <link href="assets/css/my-styles.css" rel="stylesheet">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1c132ba6dd.js" crossorigin="anonymous"></script>
+    <script src="assets/js/particles.js"></script>
     <title>Rodrigo Ayala.</title>
 </head>
 
-<body>
+<body id="particles-js">
     <div class="container">
         <div class="row">
             <div class="column" style="margin-top: 5em">
@@ -43,5 +43,10 @@
         </div>
     </div>
 </body>
+<script>
+    particlesJS.load('particles-js', 'assets/js/particles.json', function () {
+        console.log('callback - particles.js config loaded');
+    });
+</script>
 
 </html>
