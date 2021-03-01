@@ -4,9 +4,13 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
-.row div img {
-    max-width: 80%;
-    align-items: center;
+.my-info {
+    text-transform: uppercase;
+}
+
+.img-logo {
+    width: 100%;
+  height: auto;
 }
 
 canvas{
