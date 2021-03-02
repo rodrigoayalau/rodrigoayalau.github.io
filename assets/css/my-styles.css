@@ -2,19 +2,29 @@
 
 body {
     font-family: 'Poppins', sans-serif !important;
+    background-color: #dcdde1;
 }
 
-.my-info {
-    text-transform: uppercase;
+.profile-pic{
+    max-width: 50%;
 }
 
-.img-logo {
-    max-width: 100%;
+a{
+    margin-top: 1em !important;
+    border: solid 1px #0d6efd;
+    padding: 10px;
+    border-radius: 30px;
+    color: #dcdde1;
+    background-color:#0d6efd;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #dcdde1 !important;
 }
 
 canvas{
     display: block;
-    vertical-align: bottom;
 }
 
 #particles-js{
@@ -24,4 +34,7 @@ canvas{
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%; }
+    background-position: 50% 50%;
+}
+
+    
